@@ -9,7 +9,7 @@ const NORMAL_KEYBOARD: &str = "\n\n
         TAB q w e r t y u i o p [ ] ENTER
         ---- a s d f g h j k l ; ' \\\\ ENTER
         SHIFT z x c v b n m , . /  SHIFT
-        --- --- SPACE_SPACE_SPACE --- --- ---- Terminate
+        --- --- SPACE_SPACE_SPACE --- --- Terminate
     ";
 
 const SHIFT_KEYBOARD: &str = "\n\n
@@ -17,7 +17,7 @@ const SHIFT_KEYBOARD: &str = "\n\n
         TAB Q W E R T Y U I O P { } ENTER
         ---- A S D F G H J K L : \\\" | ENTER
         SHIFT Z X C V B N M < > ?  SHIFT
-        --- --- SPACE_SPACE_SPACE --- --- ---- Terminate
+        --- --- SPACE_SPACE_SPACE --- --- Terminate
     ";
 
 const GENERIC_KEYBOARD_KEYMAP: phf::Map<&'static str, (u8, &str)> = phf_map! {
