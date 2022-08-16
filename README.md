@@ -45,7 +45,7 @@ fn main() {
 }
 
 ```
-Make sure that `FUNCTIONS_DIR` is a valid directory.
+Make sure that `FUNCTIONS_DIR` is a valid directory that exists.
 
 <br>
 
